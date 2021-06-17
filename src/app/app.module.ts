@@ -5,13 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { NameCardComponent } from './name-card/name-card/name-card.component';
-import { ProgressBarComponent } from './ProgressBar/progress-bar/progress-bar.component'; 
+import { ProgressBarComponent } from './ProgressBar/progress-bar/progress-bar.component';
+import { RatingBarComponent } from './RatingBar/rating-bar/rating-bar.component';
+import { CountdownTimerComponent } from './Countdown/countdown-timer/countdown-timer.component'; 
 
 @NgModule({
   declarations: [
     AppComponent,
     NameCardComponent,
-    ProgressBarComponent
+    ProgressBarComponent,
+    RatingBarComponent,
+    CountdownTimerComponent
   ],
   imports: [
     BrowserModule,
